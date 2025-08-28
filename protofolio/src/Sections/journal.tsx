@@ -4,7 +4,10 @@ import React, { useState } from 'react';
 import Section from '../components/sections';
 import type { JournalEntry } from '../types';
 
-// Sample journal data with more personal, reflective entries
+//const initialJournalEntries: JournalEntry[] = [];
+
+//
+//Sample journal data with more personal, reflective entries
 const initialJournalEntries: JournalEntry[] = [
   {
     id: 1,

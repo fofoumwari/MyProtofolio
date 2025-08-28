@@ -6,6 +6,8 @@ import About from './Sections/About';
 import Projects from './Sections/Projects';
 import Contact from './Sections/contacts';
 import Journal from './Sections/journal';
+//import JournalSync from './components/journalsync';
+import JournalSync from './components/journalsync';
 //import Journal from './sections/Journal';
 
 
@@ -20,6 +22,7 @@ function App() {
         <About />
         <Projects />
         <Journal />
+       
         {/* Add other sections here */}
         <Contact />
       </main>

@@ -13,7 +13,9 @@ export interface JournalEntry {
   title: string;
   date: string;
   content: string;
-  summary?: string; // For your future AI feature!
+  summary?: string;
+  sentiment?: string;
+  keywords?: string[]; // For your future AI feature!
 }
 
 export type NavLink = {
